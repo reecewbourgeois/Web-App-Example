@@ -1,0 +1,30 @@
+[
+    {
+        "labels": ["Checked-In", "Moved To Imaging", "Imaged", "Imaging QC", "Stock - Completed", "Ready For Shipment", "Shipped - Completed" ],
+        "datasets": [
+            {     
+                "label": "Imaging",
+                "backgroundColor": [
+                    "#dc3545",
+                    "#fd7e14",
+                    "#ffc107",
+                    "#28a745",
+                    "#20c997",
+                    "#007bff",
+                    "#6610f2"
+                ],
+                "hoverBackgroundColor": [
+                    "#981b27",
+                    "#b15102",
+                    "#b38600",
+                    "#19672b",
+                    "#158463",
+                    "#004a99",
+                    "#4709aa"
+                ],
+                "borderColor": "#3a4149",
+                "data": [75, 59, 80, 60, 56, 45, 30]
+            }
+        ]
+    }
+]

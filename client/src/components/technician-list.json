@@ -1,0 +1,6 @@
+[
+    { "value": "",                      "label": "Please Select a person" },
+    { "value": "Bob@something.net",     "label": "Bob the Builder"      },
+    { "value": "John@something.net",     "label": "John Doe"         },
+    { "value": "Jane@something.net",   "label": "Jane Doe"           }
+]

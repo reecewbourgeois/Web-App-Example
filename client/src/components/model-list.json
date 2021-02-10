@@ -1,0 +1,16 @@
+[
+    {   "value": "Chromebook 11",          "label": "Chromebook 11"           },
+    {   "value": "Chromebook 11 Touch",    "label": "Chromebook 11 Touch"     },
+    {   "value": "Chromebook 3189",        "label": "Chromebook 3189"         },
+    {   "value": "Chromebook 3100 2-in-1", "label": "Chromebook 3100 2-in-1"  },
+    {   "value": "Chromebook 5190 2-in-1", "label": "Chromebook 5190 2-in-1"  },
+    {   "value": "Latitude 3310 2-in-1",   "label": "Latitude 3310 2-in-1"    },
+    {   "value": "Latitude 3340",          "label": "Latitude 3340"           },
+    {   "value": "Latitude 3340 Touch",    "label": "Latitude 3340 Touch"     },
+    {   "value": "Latitude 3350 Touch",    "label": "Latitude 3350 Touch"     },
+    {   "value": "Latitude 3380 Touch",    "label": "Latitude 3380 Touch"     },
+    {   "value": "Latitude 3390 2-in-1",   "label": "Latitude 3390 2-in-1"    },
+    {   "value": "Macbook Air",            "label": "Macbook Air"             },
+    {   "value": "Macbook Pro",            "label": "Macbook Pro"             },
+    {   "value": "Other",                  "label": "Other"                   }
+]

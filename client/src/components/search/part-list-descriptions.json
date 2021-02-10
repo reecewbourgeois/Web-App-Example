@@ -1,0 +1,218 @@
+[
+    {   
+        "value": "AC Adapter", 
+        "label": "AC Adapter", 
+        "Description": "Tested computer with known good battery but the charger still will not charge. Tested charger on different outlets and re-seated all the adapter’s connections. Computer only charges with known working charger. " 
+    },
+
+    {   
+        "value": "Audio Jack", 
+        "label": "Audio Jack", 
+        "Description": "The headphone jack has failed and the headphones no longer produce sound correctly. Tested with a known working audio jack and there was sound. There is no option for this, which is why I selected 'other'. " 
+    },
+    
+    {   
+        "value": "Battery", 
+        "label": "Battery", 
+        "Description": "Battery is swollen and will no longer hold charge even when plugged into charger. " 
+    },
+    
+    {   
+        "value": "Battery Cable", 
+        "label": "Battery Cable", 
+        "Description": "The battery cable has open exposed wires which causes the battery to not be able to charge. " 
+    },
+    
+    {   
+        "value": "Bezel", 
+        "label": "Bezel", 
+        "Description": "The Bezel of this device has failed where the Bezel and Top Cover meet due to the failure of the clips and causes the device to snag. " 
+    },
+    
+    {   
+        "value": "Billable Repair", 
+        "label": "Billable Repair", 
+        "Description": "Billable Repair" 
+    },
+    
+    {   
+        "value": "Bottom Plastics", 
+        "label": "Bottom Plastics", 
+        "Description": "The Bottom Plastic of this device is non-functional that causes the motherboard to be exposed. Tested with a known working bottom plastic and the issue was resolved." 
+    },
+    
+    {   
+        "value": "Charger Port", 
+        "label": "Charger Port", 
+        "Description": "Charger port has failed which prevents the computer from charging. Power adapter works perfectly fine and a new charger port was tested and the issue was resolved. There is no option for this, which is why I selected 'other'." 
+    },
+    
+    {   
+        "value": "Daughterboard Left", 
+        "label": "Daughterboard Left",
+        "Description": "The cable that connects the power switch board and the audio jack to the motherboard has a failed connecter. This causes the cable not to be able to be plugged in to the audio jack properly."  
+    },
+    
+    {   
+        "value": "Daughterboard Ribbon", 
+        "label": "Daughterboard Ribbon",
+        "Description": "The ribbon is defective and no longer allows for proper connection to the daughter board. Tested with known working ribbon cable and the daughter board worked just fine."   
+    },
+    
+    {   
+        "value": "Daughterboard Right", 
+        "label": "Daughterboard Right",
+        "Description": "The cable that connects the power switch board and the audio jack to the motherboard has a failed connecter. This causes the cable not to be able to be plugged in to the audio jack properly. "   
+    },
+    
+    {   
+        "value": "Depot", 
+        "label": "Depot",
+        "Description": "Multiple parts on the laptop have failed resulting in the device not turning on or having no display including the motherboard, LCD, and plastics and needs more parts than allowed in a parts-only dispatch. Requesting return to depot for repairs. "   
+    },
+    
+    {   
+        "value": "Fan", 
+        "label": "Fan",
+        "Description": "Fan makes a grinding noise when the machine is turned on. Tested with known working fan and issue is resolved. "   
+    },
+    
+    {   
+        "value": "Heatsink", 
+        "label": "Heatsink",
+        "Description": "The device reports overheating issues due to the Heatsink having failed and unable to cool the device properly. "   
+    },
+    
+    {   
+        "value": "Hinge Cover", 
+        "label": "Hinge Cover",
+        "Description": "The Hinge Cover of the device is non-functional that causes the cables and hinges of the device to be exposed. Tested with a known working hinge cover and the issue was resolved. "   
+    },
+    
+    {   
+        "value": "Keyboard", 
+        "label": "Keyboard",
+        "Description": "The Keyboard is inoperable which prevents full functionality of this device. The 's, d, and f' keys do not work. Tested with a known working keyboard and the keys started to work. "   
+    },
+    
+    {   
+        "value": "Keyboard Trim", 
+        "label": "Keyboard Trim",
+        "Description": "The clips of the keyboard trim of this device have failed and do not allow the trim to stay properly in place on the keyboard. "   
+    },
+    
+    {   
+        "value": "LCD", 
+        "label": "LCD",
+        "Description": "The touch daughter board on the back of the LCD has failed leaving the device without a functional touchscreen. Tested with known working one and it worked. "   
+    },
+    
+    {   
+        "value": "LCD Cable", 
+        "label": "LCD Cable",
+        "Description": "The LCD Cable of this device has failed which prevents an image to be displayed on a known working LCD. "   
+    },
+    
+    {   
+        "value": "LED Board", 
+        "label": "LED Board",
+        "Description": "The LED Board cable has failed preventing the use of the LED board. There is no option for this, which is why I selected 'other'. "   
+    },
+    
+    {   
+        "value": "Left Hinge", 
+        "label": "Left Hinge",
+        "Description": "The left hinge of this device is has failed which makes the top cover unstable and wobbly. Tested with a know working hinge and the issue was resolved. "   
+    },
+    
+    {   
+        "value": "Motherboard", 
+        "label": "Motherboard",
+        "Description": "The computer will not turn on. The charger and battery are functioning correctly. When the charger is plugged in, the LED does not light up. When power button is pressed, the power LED and caps lock lights up for a second, but the computer does not stay on. "   
+    },
+    
+    {   
+        "value": "Pwr & Vol Board", 
+        "label": "Pwr & Vol Board",
+        "Description": "The power and volume control board has lost its functionality. Tested with a known working board, and the functionality returned. There is no option for this, which is why I selected 'other'. "   
+    },
+    
+    {   
+        "value": "Palm Rest", 
+        "label": "Palm Rest",
+        "Description": "The Palm Rest of this device is non-functional that causes the mouse pad to be inoperable. Tested with a known working palm rest and the issue was resolved. "   
+    },
+    
+    {   
+        "value": "Power Cord", 
+        "label": "Power Cord",
+        "Description": "Power cord has become frayed at the end, not allowing the charger to work properly. "   
+    },
+    
+    {  
+        "value": "RAM", 
+        "label": "RAM",
+        "Description": "The RAM has failed preventing the computer from booting. Tested with known working RAM and the issue is resolved. "   
+    },
+    
+    {   
+        "value": "Right Hinge", 
+        "label": "Right Hinge",
+        "Description": "The right hinge of this device is has failed which makes the top cover unstable and wobbly. Tested with a know working hinge and the issue was resolved. "   
+    },
+    
+    {   
+        "value": "Speakers", 
+        "label": "Speakers",
+        "Description": "The speakers have failed, producing no sound. Tested using diagnostics and did not work. Fixed by changing with known working speakers. "   
+    },
+    
+    {   
+        "value": "SSD", 
+        "label": "SSD",
+        "Description": "Solid State Drive will not appear in the BIOS and cannot boot to SSD. Made sure it was not disabled in BIOS and attempted re-seating the drive but did not fix the issue. Tried a known working SSD in the laptop and issue was resolved. "   
+    },
+    
+    {   
+        "value": "SSD Cable", 
+        "label": "SSD Cable",
+        "Description": "The SSD Cable has failed which prevents the device from reading the SSD. "   
+    },
+    
+    {   
+        "value": "Tablet Sensor Cable", 
+        "label": "Tablet Sensor Cable",
+        "Description": "The Tablet Sensor Cable has malfunctioned which prevents the device from going into Tablet mode. There is no option for this, that is why I selected 'other'. "   
+    },
+    
+    {   
+        "value": "Top Cover", 
+        "label": "Top Cover",
+        "Description": "The Top Cover of this device is non-functional that causes the LCD to not seat correctly. Tested with a known working top cover and issue was resolved. "   
+    },
+    
+    {  
+        "value": "Touch Cable", 
+        "label": "Touch Cable",
+        "Description": "Touchscreen cable has failed and does not allow the  computer to utilize any touch capability. Tested with a known working cable and issue is resolved. There is no option for this, that is why I selected 'other'. "   
+    },
+    
+    {   
+        "value": "Touch Pad", 
+        "label": "Touch Pad",
+        "Description": "Touch pad is not responding to the user's input. Tested with known working touch pad and issue is resolved. "   
+    },
+    
+    {   
+        "value": "Webcam", 
+        "label": "Webcam",
+        "Description": "The port of the webcam has failed and is not being detected. A known working webcam was tested and the issue was resolved. "   
+    },
+    
+    {   
+        "value": "Wireless Card", 
+        "label": "Wireless Card",
+        "Description": "The wireless signal will not connect. Tested with a known working card and it started working, meaning the current wireless card has failed the device. "  
+         
+    }
+]

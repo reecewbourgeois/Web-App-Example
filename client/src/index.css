@@ -1,0 +1,454 @@
+/******************************/
+/****** Main Components *******/
+/******************************/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #22262b !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper {
+  display: flex;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/******** COLORS *********/
+
+.bg-secondary {
+  background-color: #3a4149 !important;
+}
+
+.bg-dark {
+  background-color: #22262b !important;
+}
+
+.bg-dark-title {
+  background-color: #2d3339 !important;
+}
+
+.bg-alert-success {
+  background-color: #28a745 !important;
+}
+
+.bg-alert-warning {
+  background-color: #ffc107 !important;
+}
+
+.bg-alert-error {
+  background-color: #dc3545 !important;
+}
+
+.text-primary {
+  color: #257cc6 !important;
+}
+
+.border-dark {
+  border-color: #16191d !important;
+}
+
+.border-indigo {
+  border-color: #6610f2!important;
+}
+
+.bg-form-box {
+  background-color: #4f5963 !important;
+}
+
+.text-orange {
+  color: #fd7e14 !important;
+}
+
+.text-form-color {
+  color: #f2f2f2 !important;
+}
+
+.text-form-color::placeholder {
+  color: #cccccc !important;
+}
+
+.table-dark {
+  background-color: #3a4149 !important;
+}
+
+.table-dark tbody tr {
+  border-bottom: 3px solid #22262b !important;
+}
+
+.table-dark th {
+  border-top: none !important;
+  border-bottom: 4px solid #16191d !important;
+}
+
+.r-input {
+  background-color: #4f5963 !important;
+  color: white !important;
+  border-color: #16191d !important;
+  border-radius: 0px 4px 4px 0px !important;
+}
+
+.r-has-error {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+.table {
+  color: white !important;
+}
+
+.btn-info {
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+  margin-bottom: 10px;
+}
+
+.btn-info:hover {
+  background-color: #206bac !important;
+  border-color: #206bac !important;
+}
+
+
+/********* Widths ************/
+
+.w-15 {
+  width: 15%!important;
+}
+
+.w-20 {
+  width: 20%!important;
+}
+
+/******************************/
+/******** Side navbar *********/
+/******************************/
+
+#sidebar {
+  min-width: 225px;
+  max-width: 225px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /* top layer */
+  z-index: 9999;
+  transition: max-width 0.5s ease,min-width 0.5s ease;
+}
+
+.sidebar-sm {
+  min-width: 55px !important;
+  max-width: 55px !important;
+  font-size: 0;
+  transition: font-size 0.5s ease 2s;
+  
+}
+
+.sidebar-sm i {
+  font-size: large !important ;
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+}
+
+.sidebar-sm li a {
+  color: transparent !important;
+  transition: color 0.5s ease 2s;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  transition: font-size 0.5s ease-out 2s;
+  transition: color 0.5s ease 0.2s;
+}
+
+#sidebar ul li a:hover
+{
+  color: #fff;
+  background: #257cc6 !important;
+}
+
+#sidebar ul li a:hover i{
+  color: #fff !important;
+}
+
+#sidebar .active {
+  color: #fff;
+  background: #2d3339;
+}
+
+#sidebar .active i {
+  color: #257cc6 !important;
+}
+
+
+/******************************/
+/******** Breadcrumb *********/
+/******************************/
+
+#content {
+  width: 100%;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #fff; 
+}
+
+.breadcrumb-item.active {
+  color: #fff; 
+}
+
+
+/******************************/
+/******** Dashboard *********/
+/******************************/
+.hover-bg--danger:hover {
+  background-color: #dc3545 !important;
+}
+
+.hover-bg--warning:hover {
+  background-color: #ffc107 !important;
+}
+
+.hover-bg--primary:hover {
+  background-color: #257cc6 !important;
+}
+
+.hover-bg--info:hover {
+  background-color: #17a2b8 !important;
+}
+
+/****************************/
+/*** Search results cards ***/
+/****************************/
+
+.card-scroll {
+  overflow-x: scroll;
+  padding: 1rem;
+}
+
+.card-height {
+  min-height: 150px;
+}
+
+
+/*******************************/
+/******** React-select *********/
+/*******************************/
+
+.react-select-container {
+  border-color: #16191d !important;
+  color: red !important;
+  display: block !important;
+  height: calc(1.5em + .75rem + 2px) !important;
+  width: calc(100% - 47px);
+}
+
+.react-select__control {
+  border-color: #16191d !important;
+  background-color: #4f5963 !important;
+}
+
+.react-select__value-container {
+  border-color: #16191d !important;
+
+  background-color: #4f5963 !important;
+}
+
+.react-select__indicators {
+  border-color: #16191d !important;
+  border-radius: 4px !important;
+  background-color: #4f5963 !important;
+}
+
+.react-select__menu {
+  display: block;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  width: 100%;
+  background-color: black !important;
+  border-color: #16191d !important;
+  border-radius: 4px !important;
+}
+
+.react-select__menu-list {
+  border-color: #16191d !important;
+  background-color: #4f5963 !important;
+  color: white;
+}
+
+.react-select__option {
+  border-color: #16191d !important;
+  border-radius: 4px !important;
+  background-color: #4f5963 !important;
+  color: red;
+}
+
+.react-select__option:hover {
+  background-color: #257cc6 !important;
+}
+
+.react-select__multi-value {
+  background-color: #257cc6 !important;
+  color: white !important;
+}
+
+.react-select__multi-value__label {
+  color: white !important;
+}
+
+.css-1uccc91-singleValue {
+  color: #fff !important;
+}
+
+
+/******************************/
+/***** Batch Asset List *******/
+/******************************/
+
+ul.centred-ul{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+}
+centred-ul li{
+  display:flex; /* control the items' content */
+  justify-content:center; /* horizontally */
+  align-items:center; /* vertically */
+/* and some item styling for clarity: */
+  outline:2px solid;
+  outline-offset: -1px;
+  width:200px;
+  height:100px;
+}
+
+
+/******************************/
+/***** Work History Modal *****/
+/******************************/
+
+.modal-header {
+  color: white !important;
+  border-bottom: 1px solid #16191d !important;
+}
+
+.modal-content {
+  background-color: #3a4149 !important;
+  color: white !important;
+}
+
+.modal-body .form-control {
+  color: white !important;
+  background-color: #4f5963 !important;
+  border-color: #16191d !important;
+}
+
+.modal-footer {
+  border-top: 1px solid #16191d !important;
+}
+
+
+/************************************/
+/**** Ticket System table Scroll ****/
+/************************************/
+
+.ticketing-system.table-fixed tbody {
+  display:block;
+  height:250px;
+  overflow:auto;
+}
+.ticketing-system.table-fixed thead,
+.ticketing-system.table-fixed tbody tr {
+  display:table;
+  width:100%;
+  table-layout:fixed;
+}
+
+.ticketing-system.table-fixed tr {
+  cursor: pointer;
+}
+
+/************************************/
+/**** Date Picker Box ****/
+/************************************/
+
+.react-date-picker__inputGroup__input {
+  color: #f2f2f2 !important;
+}
+
+.react-date-picker__wrapper {
+  border: 0px;
+}
+
+/**************************************/
+/**** Statistics Tech table Scroll ****/
+/**************************************/
+
+.list-group-tech {
+  max-height: 675px !important;
+  margin-bottom: 10px !important;
+  overflow-y: scroll !important;
+  -webkit-overflow-scrolling: touch !important;
+  cursor:pointer !important;
+}
+
+.list-hover:hover {
+  opacity: 0.5 !important;
+}
+
+.list-hover:active {
+  background-color: #007bff !important;
+}
+
+
+/**************************************/
+/**** Ticket notification badge ****/
+/**************************************/
+
+.notification {
+  color: white !important;
+  text-decoration: none !important;
+  padding: 1px 2px !important;
+  position: relative !important;
+  display: inline-block !important;
+  border-radius: 2px !important;
+}
+
+.notification .badge-icon {
+  position: absolute !important;
+  top: -5px !important;
+  right: -20px !important;
+  padding: 3px 6px !important;
+  border-radius: 50% !important;
+}

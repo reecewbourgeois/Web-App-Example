@@ -1,0 +1,28 @@
+[
+    {
+        "labels": ["Repaired", "Dispatched", "Depoted", "Returned", "Redispatched", "Quality Tested" ],
+        "datasets": [
+            {     
+                "label": "DellRepair", 
+                "backgroundColor": [
+                    "#dc3545",
+                    "#fd7e14",
+                    "#ffc107",
+                    "#28a745",
+                    "#007bff",
+                    "#6610f2"
+                ],
+                "hoverBackgroundColor": [
+                    "#981b27",
+                    "#b15102",
+                    "#b38600",
+                    "#19672b",
+                    "#004a99",
+                    "#4709aa"
+                ],
+                "borderColor": "#3a4149",
+                "data": [70, 60, 50, 60, 56, 45]
+            }
+        ]
+    }
+]

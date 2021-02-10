@@ -1,0 +1,18 @@
+[
+    {
+        "labels": [""],
+        "datasets": [
+            {     
+                "label": "InitialChart",
+                "backgroundColor": [
+                    "#3a4149"
+                ],
+                "hoverBackgroundColor": [
+                    "#3a4149"
+                ],
+                "borderColor": "#3a4149",
+                "data": []
+            }
+        ]
+    }
+]

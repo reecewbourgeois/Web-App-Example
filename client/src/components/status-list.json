@@ -1,0 +1,22 @@
+[
+    {   "value": "AD Limit",                "label": "AD Limit"                        },
+    {   "value": "Backordered Part",        "label": "Backordered Part"                },
+    {   "value": "Battery",                 "label": "Battery"                         },
+    {   "value": "Depoted",                 "label": "Depoted"                         },
+    {   "value": "Dispatched",              "label": "Dispatched"                      },
+    {   "value": "Returned to Dispatcher",  "label": "Returned to Dispatcher"          },
+    {   "value": "Holding",                 "label": "Holding"                         },
+    {   "value": "Waiting for Parts",       "label": "Waiting for Parts"               },
+    {   "value": "Redispatch",              "label": "Redispatch"                      },
+    {   "value": "Repaired",                "label": "Repaired"                        },
+    {   "value": "Returned",                "label": "Returned"                        },
+    {   "value": "Return Repaired",         "label": "Return Repaired"                 },
+    {   "value": "Sent to Depot",           "label": "Sent to Depot"                   },
+    {   "value": "Returned from Depot",     "label": "Returned from Depot"             },
+    {   "value": "Warranty Issue",          "label": "Warranty Issue"                  },
+    {   "value": "Quality Tested",          "label": "Quality Tested"                  },
+    {   "value": "Decommissioned",          "label": "Decommissioned"                  },
+    {   "value": "Stock - Completed",       "label": "Stock - Completed"               },
+    {   "value": "Ready For Shipment",      "label": "Ready For Shipment"              },
+    {   "value": "Shipped - Completed",     "label": "Shipped - Completed"             }
+]
