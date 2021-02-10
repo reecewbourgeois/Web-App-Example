@@ -15,7 +15,7 @@ import Axios from "axios";
 /* import { AzureAD } from "react-aad-msal";
 import { authProvider } from "./authProvider"; */
 
-import logo from "./Filler.jpg";
+import logo from "./fake-logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 
