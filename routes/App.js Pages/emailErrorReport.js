@@ -9,7 +9,7 @@ router.post("/", (req, res) => {
     nodeoutlook.sendEmail({
       auth: {
         user: "ticketing@something.net",
-        pass: "3WHhj92U36dCamu!EJUX",
+        pass: "something",
       },
       from: "ticketing@something.net",
       to: dev,
